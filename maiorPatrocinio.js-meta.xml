@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <description>Confira o maior Patrocínio do seu Piloto aqui!</description>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target> 
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__HomePage">
+            <property label="Verificar Patrocínios" name="verificarPatrocinios" type="Boolean" 
+            description="atributo que demonstra valores de patrocínios"></property> 
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
